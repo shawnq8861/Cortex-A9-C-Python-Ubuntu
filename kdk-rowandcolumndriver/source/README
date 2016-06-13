@@ -1,0 +1,33 @@
+This repository contains files needed to build a shared library that interfaces to the KDK board.
+
+To build the library:
+
+1.  Copy the files to a suitable folder on the dev kit.
+2.  Open a terminal at the location of the files.
+3.  type <make>
+4.  type <sudo make install>
+5.  For a description of library functions, arguments and return values, refer to rowAndColumnDriver.h.
+
+The test scripts may be run individually or from the menu driven script.
+
+To run the scripts individually:
+
+1.  from the working folder, type:  sudo python writeInitialPattern.py, this initiallizes the FPGA registers
+    and starts driving a "all off" pattern.
+
+After executing 1. above:
+
+2.  To drive an "all on" pattern, type:  <sudo python writePatternBufferAllOn.py>
+3.  To drive a "checkerboard" pattern, type:  <sudo python writePatternCheckerboard.py>
+4.  To drive an "all off" pattern, type:  <sudo python writePatternBufferAllOff.py>
+5.  To stop continuous drive, type:  <sudo python rowAndColumnTurnDriveOff.py>
+6.  To print the current pattern buffer to a file, type:  <sudo python readAndSavePatternBuffer.py>
+
+Alternatively, the 6 steps outlined above can be executed from within a single menu driven script.
+
+To execute the menu driven script, type:  <sudo python rowAndColumnDriver.py>
+
+make selections by typing the appropriate number from the menus and type <enter>
+i.e. 2 <enter> to start driving a checkerboard pattern.
+
+When this scripts exits, the continuous drive is disabled automatically.

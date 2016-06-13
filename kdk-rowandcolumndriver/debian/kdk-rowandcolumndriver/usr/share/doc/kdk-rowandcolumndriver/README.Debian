@@ -1,0 +1,8 @@
+kdk-bsp for Debian
+------------------
+
+    To create this package:
+        sudo dpkg-buildpackage -aarmhf -us -uc -B
+
+    To change the version:
+        Edit the debian/changelog file

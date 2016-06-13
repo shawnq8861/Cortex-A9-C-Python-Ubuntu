@@ -1,0 +1,12 @@
+Source: kdk-rowandcolumndriver
+Section: embedded
+Priority: optional
+Maintainer: Shawn Quinn <squinn@kymetacorp.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: kdk-rowandcolumndriver
+Architecture: armhf
+Description: KDK row and column driver utility
+    Contains C library and Python scripts for KDK FPGA pattern control
+

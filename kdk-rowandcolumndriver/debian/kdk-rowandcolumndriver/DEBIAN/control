@@ -1,0 +1,9 @@
+Package: kdk-rowandcolumndriver
+Version: 0.1.2
+Architecture: armhf
+Maintainer: Shawn Quinn <squinn@kymetacorp.com>
+Installed-Size: 282
+Section: embedded
+Priority: optional
+Description: KDK row and column driver utility
+    Contains C library and Python scripts for KDK FPGA pattern control

@@ -1,0 +1,11 @@
+12415ab37d6f7f49ab78ec1d68b7b04f  opt/kymeta/lib/libRowAndColDriver.so
+69aaa14148a27dba01912672ea9cd76c  opt/kymeta/rowandcolumndriver/readAndSavePatternBuffer.py
+9e706fe7ba379888a6eff1c2b413981d  opt/kymeta/rowandcolumndriver/rowAndColumnDriver.py
+ddeb3c3f10cbf7ef2eddbd1f4eebd996  opt/kymeta/rowandcolumndriver/rowAndColumnTurnDriveOff.py
+97b425950a3b382988919041ecd60f67  opt/kymeta/rowandcolumndriver/writeInitialPatternBufferAllOff.py
+45763ae190bd151b715ee46bb073144d  opt/kymeta/rowandcolumndriver/writePatternBufferAllOff.py
+97c889e52a406b4210f73495b9b39bf5  opt/kymeta/rowandcolumndriver/writePatternBufferAllOn.py
+45918b056c7294d61510ffaefbc32fff  opt/kymeta/rowandcolumndriver/writePatternBufferCheckerboard.py
+9808dec9a31a4aa6e9b69b31a2fe7c93  usr/share/doc/kdk-rowandcolumndriver/README.Debian
+8825c954e724781cef5b5ada69ab6720  usr/share/doc/kdk-rowandcolumndriver/changelog.gz
+be994810b836b9705b1dddc273a5c2c5  usr/share/doc/kdk-rowandcolumndriver/copyright
